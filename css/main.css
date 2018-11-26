@@ -76,7 +76,7 @@ img {
 
   img {
     display: flex;
-    width: 32;
+    width: 32px;
   }
 
   img:first-child {
@@ -88,7 +88,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   body {
-    tansform: translate(1.5%);
+    transform: translate(1.5%);
   }
 
   img {
