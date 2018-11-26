@@ -51,8 +51,25 @@ body {
 
   img {
     display: flex;
+    width: 49%;
   }
 
+  img:first-child {
+    display: inline-block;
+    padding-bottom: 0;
+  }
+
+  img:nth-child(2) {
+    display: inline;
+  }
+
+  img:nth-child(3) {
+    display: inline-block;
+  }
+
+  img:nth-child(4) {
+    display: inline;
+  }
 }
 
 @media only screen and (min-width: 38em) {
