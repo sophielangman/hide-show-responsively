@@ -25,7 +25,6 @@ img {
 @media only screen and (min-width: 20em) {
 
   img {
-    display: flex;
     width: 100%;
   }
 
@@ -45,12 +44,12 @@ img {
   img:nth-child(4) {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 25em) {
 
   img {
-    display: flex;
     width: 49%;
   }
 
@@ -70,12 +69,12 @@ img {
   img:nth-child(4) {
     display: inline;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   img {
-    display: flex;
     width: 32px;
   }
 
@@ -92,7 +91,6 @@ img {
   }
 
   img {
-    display: flex;
     width: 24%;
   }
 
